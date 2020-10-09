@@ -1,0 +1,61 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+
+.container{
+    position: fixed;
+    left: 25%;
+    display: flex;
+    height : 620px;
+    width : 620px;
+    background-color: #f3eded;
+}
+
+.stage {
+/*    position: fixed;
+    left: 25%; */
+    height : 600px;
+    width : 600px;
+    margin: 10px;
+    /*position: absolute;
+    left: 25.5%;
+    top: 2%; */
+    /*background-image: url(./img/css_animation_exercise_4.png);
+    background-repeat: no-repeat;
+    opacity: 70%;*/
+    border : dashed 1.5px lightgrey;
+    position: fixed; 
+    bottom: center;
+
+}
+
+.hero {
+    border : dashed 1px red;
+    opacity: 1;
+    height : 72px;
+    width : 72px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    animation-name: moveit;
+    animation-duration: 17s ;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes moveit {
+    0% {left: 20px; top : 20px}
+    29.41% {left: 500px; top : 20px ; transform: rotate(0deg)}
+    41.18% {left: 500px ; top : 200px ; transform: rotate(0deg)}
+    44.12% {left: 270px ; top : 200px ; transform: rotate(45deg)}
+    55.88% {left: 270px ; top : 200px ; transform: rotate(45deg) ; border: dashed 1px red ; height: 72px; width: 72px; border-radius: 0%}
+    70.59% {left: 20px ; top : 204px ; transform: rotate(90deg) ; border: dashed 1px blue ; height: 72px; width: 72px; border-radius: 0%; background-image:radial-gradient(transparent, transparent)}
+    100% {left: 442px ; top : 442px ; transform: rotate(90deg) ; border: solid 1px transparent ; height: 150px; width: 150px; border-radius: 50%; background-image:radial-gradient(#F76B1C, #FBCA61)}
+}
+
+
+
+/* radial-gradient(#F76B1C, #FBCA61) */
