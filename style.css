@@ -8,6 +8,7 @@
 .container{
     position: fixed;
     left: 25%;
+    right:25%;
     display: flex;
     height : 620px;
     width : 620px;
@@ -26,7 +27,7 @@
     /*background-image: url(./img/css_animation_exercise_4.png);
     background-repeat: no-repeat;
     opacity: 70%;*/
-    border : dashed 1.5px lightgrey;
+    border : dashed 2px #DCDCDC;
     position: fixed; 
     bottom: center;
 
@@ -52,8 +53,8 @@
     41.18% {left: 500px ; top : 200px ; transform: rotate(0deg)}
     44.12% {left: 270px ; top : 200px ; transform: rotate(45deg)}
     55.88% {left: 270px ; top : 200px ; transform: rotate(45deg) ; border: dashed 1px red ; height: 72px; width: 72px; border-radius: 0%}
-    70.59% {left: 20px ; top : 204px ; transform: rotate(90deg) ; border: dashed 1px blue ; height: 72px; width: 72px; border-radius: 0%; background-image:radial-gradient(transparent, transparent)}
-    100% {left: 442px ; top : 442px ; transform: rotate(90deg) ; border: solid 1px transparent ; height: 150px; width: 150px; border-radius: 50%; background-image:radial-gradient(#F76B1C, #FBCA61)}
+    70.59% {left: 20px ; top : 204px ; transform: rotate(90deg) ; border: dashed 1px #0900bd ; height: 72px; width: 72px; border-radius: 0%; background-image:radial-gradient(transparent, transparent)}
+    100% {left: 442px ; top : 442px ; transform: rotate(90deg) ; border: solid 1px transparent ; height: 150px; width: 150px; border-radius: 50%; background-image:radial-gradient(#FBDA61, #F76B1C)}
 }
 
 
